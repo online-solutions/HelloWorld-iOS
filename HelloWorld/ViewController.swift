@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         
         self.view.addSubview(view)
         
-        var backgroundImage:UIImage = UIImage(named:backgroundDict["background1"]!)!
+        var backgroundImage:UIImage? = UIImage(named:backgroundDict["Background1"]!)
         
         imageView = UIImageView(frame: view.frame)
         
